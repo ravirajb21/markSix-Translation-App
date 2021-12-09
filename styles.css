@@ -1,17 +1,25 @@
-h1 {
+h1,h2 {
   color: darkgoldenrod;
 }
 
-#inputText,
-#outputText {
+#txt-input{
   width: 80%;
-  height: 80%;
+  height: 10vh;
   padding: 2rem;
   border: 1px solid black;
   display: block;
+  margin: auto;
 }
 
-#translateBtn {
+#btn-translate {
   background-color: darkgoldenrod;
   margin: 1rem;
+}
+
+output{
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
 }
