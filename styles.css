@@ -1,0 +1,17 @@
+h1 {
+  color: darkgoldenrod;
+}
+
+#inputText,
+#outputText {
+  width: 80%;
+  height: 80%;
+  padding: 2rem;
+  border: 1px solid black;
+  display: block;
+}
+
+#translateBtn {
+  background-color: darkgoldenrod;
+  margin: 1rem;
+}
